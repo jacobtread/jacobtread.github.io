@@ -28,6 +28,9 @@
     <script src="https://www.paypal.com/sdk/js?client-id=AQFhfG6a_EEsszZlazoJIl_VsY-uPGDIaPgurLZ8gmwqL0WlMHoTeE4PieJkNJxPC908Z-6j6aEin7KN"
             charset="utf-8"></script>
     <script>
+        window.onhashchange= function () {
+            window.location.reload();
+        }
         function loadButton() {
             var price = '10.00'
             var hash = window.location.hash
