@@ -1,0 +1,22 @@
+{
+  "name": "jacobtread.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel assets/js/app.js -d assets/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobtread/jacobtread.github.io.git"
+  },
+  "author": "Jacobtread <jacobtread@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobtread/jacobtread.github.io/issues"
+  },
+  "homepage": "https://github.com/jacobtread/jacobtread.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
