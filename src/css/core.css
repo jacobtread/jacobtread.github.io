@@ -1,0 +1,30 @@
+@import "normalize.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .center {
+        @apply left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header-background {
+    -webkit-background-image: url("../img/heading.jpg");
+    -moz-background-image: url("../img/heading.jpg");
+    -o-background-image: url("../img/heading.jpg");
+    background-image: url("../img/heading.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}

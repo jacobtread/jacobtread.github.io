@@ -1,0 +1,20 @@
+
+@keyframes blink {
+    0% {
+        border-right-color: rgba(255, 255, 255, 1);
+    }
+    50% {
+        border-right-color: rgba(255, 255, 255, 0);
+    }
+}
+
+.cursor__wrapper {
+    border-right: 0.1em solid #FFF;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.circle__icon {
+    @apply flex relative mx-auto
+}
