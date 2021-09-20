@@ -24,7 +24,8 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "cssnano": "^5.0.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "sharp-cli": "^1.15.0"
   },
   "devDependencies": {
     "@webpack-cli/generators": "^2.0.0",
