@@ -1,0 +1,53 @@
+<template>
+  <div class="about">
+    <AbstrBottom class="abstr" />
+    <h1 class="about__title">About Me</h1>
+    <p class="about__text">
+      I am a small time developer from 🥝 New Zealand with a lot of free time on
+      my hands. I spent my days developing web applications mostly 🕹️ Dashboards
+      and similar applications. But I do accasionally dip my feet into the world
+      desktop applications with
+      <KotlinIcon class="icon--inline" /> Kotlin and Java. But I do perfer to
+      use Web techologies such as
+      <TypeScriptIcon class="icon--inline" /> Typescript and
+      <VueJSIcon class="icon--inline" /> VueJS
+    </p>
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from "vue";
+import TypeScriptIcon from "@/assets/icons/typescript.svg?inline";
+import VueJSIcon from "@/assets/icons/vuejs.svg?inline";
+import KotlinIcon from "@/assets/icons/kotlin.svg?inline";
+import AbstrBottom from "@/assets/img/abstr-bottom.svg?inline";
+
+export default Vue.extend({
+  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom},
+});
+</script>
+
+<style lang="scss" scoped>
+@import "@/assets/scss/variables.scss";
+
+.about {
+  margin: 0;
+  text-align: center;
+
+  .abstr {
+    transform: translateY(-8px);
+  }
+
+  &__title {
+    font-size: 2em;
+    color: $title-color;
+  }
+
+  &__text {
+    color: $text-color;
+    max-width: 700px;
+    margin: 1em auto;
+    line-height: 2;
+  }
+}
+</style>

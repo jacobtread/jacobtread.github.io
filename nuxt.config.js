@@ -22,7 +22,7 @@ export default {
       { property: 'og:img', content: 'https://jacobtread.github.io/img/jacobtread.png' },
       { name: 'author', content: 'Jacobtread' },
       { name: 'description', content: description },
-      { name: 'theme-color', content: '#5c24f4' }
+      { name: 'theme-color', content: '#ff6875' }
     ],
     link: [
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
