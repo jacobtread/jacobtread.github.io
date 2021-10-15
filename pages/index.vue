@@ -129,6 +129,27 @@
         VueJS
       </p>
     </div>
+
+    <div class="divider"></div>
+
+    <div class="folio">
+      <h1 class="folio__title">My Projects</h1>
+      <p class="folio__text">
+        I have work on many projects how-ever the following are some of my
+        notable/showcase worthy projects
+      </p>
+      <div class="folio__items">
+        <div
+          class="folio__items__value"
+          v-for="(item, index) in folio"
+          :key="index"
+        >
+          <img :src="item.img" alt="" />
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -136,9 +157,16 @@
 import Vue from "vue";
 import Quote from "@/components/Quote.vue";
 import Typer from "@/components/Typer.vue";
+import { Context } from "@nuxt/types";
 
 export default Vue.extend({
   components: { Quote, Typer },
+  async asyncData(context: Context) {
+    const $content = context.$content;
+    const folio = await $content("folio").fetch();
+    console.log(folio);
+    return { folio: folio.values };
+  },
 });
 </script>
 
@@ -239,7 +267,7 @@ export default Vue.extend({
 
   &__title {
     font-size: 2em;
-    color: $text-color;
+    color: $title-color;
   }
 
   &__text {
@@ -247,6 +275,86 @@ export default Vue.extend({
     max-width: 700px;
     margin: 1em auto;
     line-height: 2;
+  }
+}
+
+.divider {
+  display: block;
+  height: 2px;
+  margin: 4em auto;
+  width: 90%;
+  max-width: 1200px;
+  background: lighten($background, 5);
+}
+
+.folio {
+
+  &__title {
+    color:  $title-color;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  &__text {
+    color: $text-color;
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    margin: 1em auto;
+  }
+
+  &__items {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 1em auto;
+
+    &__value {
+      flex: auto;
+      margin: 1em;
+      position: relative;
+      padding: 2em 1em;
+      text-align: center;
+      border-radius: 1em;
+
+      background: $background-dark;
+      border: 2px solid darken($background, 5);
+      transition: border 0.2s ease;
+      max-width: 500px;
+
+      img {
+        height: 32px;
+        position: absolute;
+        left: 1em;
+        top: 1em;
+        opacity: 0.25;
+        transition: opacity 0.25s ease;
+      }
+
+      &:hover {
+        border: 2px solid darken($primary, 5);
+
+        img {
+          opacity: 1;
+        }
+      }
+
+      h2 {
+        color: $title-color;
+        font-weight: 700;
+        font-size: 1.25em;
+        margin: 0 0 0.5em;
+      }
+
+      p {
+        color: $text-color;
+        padding: 0 1em;
+        line-height: 1.7;
+      }
+    }
   }
 }
 </style>

@@ -1,0 +1,37 @@
+{
+  "values": [
+    {
+      "img": "https://raw.githubusercontent.com/jacobtread/QRLS/main/public/img/logo.svg",
+      "title": "QRLS",
+      "description": "QRLS is a kiosk system for the Questionable Research Labs which allows members and guests to sign in when entering the building and also manage and view who has been in the building.",
+      "links": {
+        "github": "https://github.com/jacobtread/QRLS"
+      }
+    },
+    {
+      "img": "https://raw.githubusercontent.com/jacobtread/NZGM/main/src/assets/img/logo-white.svg",
+      "title": "NZGM",
+      "description": "NZGM (NZGrapher Modern) is a modern alternative to the NZGrapher web graphing application which has many improvements of NZGrapher such as live editing data and the ability to run offline.",
+      "links": {
+        "github": "https://github.com/jacobtread/NZGM",
+        "website": "https://jacobtread.github.io/NZGM/"
+      }
+    },
+    {
+      "img": "https://github.githubassets.com/images/icons/emoji/unicode/1f986.png",
+      "title": "Pond",
+      "description": "Pond is a custom programming language for writing scripts for a USB Rubber ducky it improves alot upon the existing ducky code language providing variables and macros.",
+      "links": {
+        "github": "https://github.com/jacobtread/Pond"
+      }
+    },
+    {
+      "img": "https://github.githubassets.com/images/icons/emoji/unicode/1f393.png",
+      "title": "KNI",
+      "description": "KNI (KAMAR Notices Interface) is a collection of libraries in different programming languages that all have the one purpose of fetching notices from the KAMAR portal application.",
+      "links": {
+        "github": "https://github.com/jacobtread/KNI"
+      }
+    }
+  ]
+}
