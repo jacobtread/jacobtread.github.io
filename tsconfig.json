@@ -26,9 +26,12 @@
     "types": [
       "@nuxt/types",
       "@nuxt/content",
-      "@types/node"
-    ]
+      "@types/node",
+    ],
   },
+  "files": [
+    "./types/svg.d.ts"
+  ],
   "exclude": [
     "node_modules",
     ".nuxt",
