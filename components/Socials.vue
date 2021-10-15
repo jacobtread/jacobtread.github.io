@@ -8,7 +8,7 @@
     </p>
     <div class="socials__grid">
       <a
-        href=""
+        href="https://github.com/jacobtread"
         rel="nooppener"
         target="_blank"
         title="GitHub"
@@ -17,7 +17,7 @@
         <GithubIcon class="socials__grid__item__icon" />
       </a>
       <a
-        href=""
+        href="https://instagram.com/jacobtread"
         rel="nooppener"
         target="_blank"
         title="Instagram"
@@ -26,7 +26,7 @@
         <InstagramIcon class="socials__grid__item__icon" />
       </a>
       <a
-        href=""
+        href="mailto:jacobtread@gmail.com"
         rel="nooppener"
         target="_blank"
         title="Mail"
@@ -65,17 +65,23 @@ export default Vue.extend({
     justify-content: center;
     &__item {
       text-decoration: none;
-      &__icon {
-        height: 45px;
-        margin: 1em 3em;
-        color: darken($text-color, 20);
-        transition: all 0.25s ease;
-        transform: scale(1);
+      background: $background-dark;
+      margin: 1em;
+      padding: 0.5em 0.75em;
+      color: darken($text-color, 20);
+      border-radius: 1em;
 
-        &:hover {
-          color: $primary;
-          transform: scale(1.1);
-        }
+      transition: all 0.25s ease;
+      transform: scale(1);
+
+      &__icon {
+        height: 50px;
+      }
+
+      &:hover {
+        color: white;
+        background: $primary;
+        transform: scale(1.1);
       }
     }
   }
