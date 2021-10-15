@@ -1,4 +1,4 @@
-const description = "The personal website for me Jacobtread! I am web/software developer.";
+const description = "I am a small time developer from 🥝 New Zealand with a lot of free time on my hands. I spent my days developing web applications mostly 🕹️ Dashboards and similar applications. But I do accasionally dip my feet into the world desktop applications with Kotlin and Java. But I do perfer to use Web techologies such as Typescript and VueJS";
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -19,9 +19,10 @@ export default {
       { property: 'og:title', content: 'Jacobtread' },
       { property: 'og:description', content: description },
       { property: 'og:url', content: 'https://jacobtread.github.io/' },
-      { property: 'og:img', content: 'https://jacobtread.github.io/img/jacobtread.png' },
+      { property: 'og:image', content: 'https://jacobtread.github.io/img/jacobtread.png' },
       { name: 'author', content: 'Jacobtread' },
       { name: 'description', content: description },
+      { name: 'keywords', content: 'developer,jacobtread,jacob,programming,software' },
       { name: 'theme-color', content: '#ff6875' }
     ],
     link: [
@@ -63,7 +64,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  
+
   }
 
 }
