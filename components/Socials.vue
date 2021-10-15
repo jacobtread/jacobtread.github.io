@@ -1,7 +1,7 @@
 <template>
-  <div class="socials">
-    <h1 class="socials__title">My Socials</h1>
-    <p class="socials__text">
+  <div class="socials block">
+    <h1 class="block__title">My Socials</h1>
+    <p class="block__text">
       You can get in touch with me using any of the following. My github is the
       first link and that hosts all of my publicly available code which you can
       check out.
@@ -59,19 +59,6 @@ export default Vue.extend({
 @import "@/assets/scss/variables.scss";
 
 .socials {
-  text-align: center;
-
-  &__title {
-    font-size: 2em;
-    color: $title-color;
-  }
-
-  &__text {
-    color: $text-color;
-    max-width: 600px;
-    margin: 1em auto;
-  }
-
   &__grid {
     display: flex;
     flex-flow: row;
@@ -79,7 +66,7 @@ export default Vue.extend({
     &__item {
       text-decoration: none;
       &__icon {
-        height: 64px;
+        height: 45px;
         margin: 1em 3em;
         color: darken($text-color, 20);
         transition: all 0.25s ease;

@@ -1,7 +1,7 @@
 <template>
-  <div class="folio">
-    <h1 class="folio__title">My Projects</h1>
-    <p class="folio__text">
+  <div class="folio block">
+    <h1 class="block__title">My Projects</h1>
+    <p class="block__text">
       I have work on many projects how-ever the following are some of my
       notable/showcase worthy projects
     </p>
@@ -50,20 +50,6 @@ export default Vue.extend({
 @import "@/assets/scss/variables.scss";
 
 .folio {
-  &__title {
-    color: $title-color;
-    display: block;
-    text-align: center;
-    font-size: 2em;
-  }
-
-  &__text {
-    color: $text-color;
-    display: block;
-    text-align: center;
-    max-width: 500px;
-    margin: 1em auto;
-  }
 
   &__items {
     display: flex;

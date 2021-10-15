@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
+  <div class="about block">
     <AbstrBottom class="abstr" />
-    <h1 class="about__title">About Me</h1>
-    <p class="about__text">
+    <h1 class="block__title">About Me</h1>
+    <p class="block__text">
       I am a small time developer from 🥝 New Zealand with a lot of free time on
       my hands. I spent my days developing web applications mostly 🕹️ Dashboards
       and similar applications. But I do accasionally dip my feet into the world
@@ -23,31 +23,15 @@ import KotlinIcon from "@/assets/icons/kotlin.svg?inline";
 import AbstrBottom from "@/assets/img/abstr-bottom.svg?inline";
 
 export default Vue.extend({
-  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom},
+  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom },
 });
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/scss/variables.scss";
 
-.about {
-  margin: 0;
-  text-align: center;
-
-  .abstr {
-    transform: translateY(-8px);
-  }
-
-  &__title {
-    font-size: 2em;
-    color: $title-color;
-  }
-
-  &__text {
-    color: $text-color;
-    max-width: 700px;
-    margin: 1em auto;
-    line-height: 2;
-  }
+.abstr {
+  transform: translateY(-8px);
 }
+
 </style>
