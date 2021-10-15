@@ -185,6 +185,7 @@ export default Vue.extend({
   &--wrapper {
     opacity: 0;
     animation: title 0.5s 0.25s ease-out forwards;
+    z-index: 1;
   }
 
   &__logo {
@@ -255,6 +256,7 @@ export default Vue.extend({
 .abstr {
   width: 100%;
   color: #603046;
+  z-index: -1;
 }
 
 .about {
