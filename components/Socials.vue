@@ -9,7 +9,7 @@
     <div class="socials__grid">
       <a
         href="https://github.com/jacobtread"
-        rel="nooppener"
+        rel="noopener"
         target="_blank"
         title="GitHub"
         class="socials__grid__item"
@@ -18,7 +18,7 @@
       </a>
       <a
         href="https://instagram.com/jacobtread"
-        rel="nooppener"
+        rel="noopener"
         target="_blank"
         title="Instagram"
         class="socials__grid__item"
@@ -27,7 +27,7 @@
       </a>
       <a
         href="mailto:jacobtread@gmail.com"
-        rel="nooppener"
+        rel="noopener"
         target="_blank"
         title="Mail"
         class="socials__grid__item"
