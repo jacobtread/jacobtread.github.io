@@ -31,6 +31,18 @@
         class="links__item"
         target="_blank"
         rel="nooppener"
+        href="https://www.snapchat.com/add/jacobtread?share_id=m55FKairH1s&locale=en-NZ"
+      >
+        <SnapchatIcon />
+        <div class="links__item__content">
+          <h1 class="links__item__content__title">Snapchat</h1>
+          <p class="links__item__content__text">jacobtread</p>
+        </div>
+      </a>
+      <a
+        class="links__item"
+        target="_blank"
+        rel="nooppener"
         href="https://github.com/jacobtread"
       >
         <GithubIcon />
@@ -76,6 +88,7 @@ import InstagramIcon from "@/assets/icons/instagram.svg?inline";
 import MailIcon from "@/assets/icons/mail.svg?inline";
 import TellonymIcon from "@/assets/icons/tellonym.svg?inline";
 import DiscordIcon from "@/assets/icons/discord.svg?inline";
+import SnapchatIcon from "@/assets/icons/snapchat.svg?inline";
 
 export default Vue.extend({
   components: {
@@ -84,6 +97,7 @@ export default Vue.extend({
     MailIcon,
     TellonymIcon,
     DiscordIcon,
+    SnapchatIcon,
   },
 });
 </script>
