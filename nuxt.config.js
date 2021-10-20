@@ -15,14 +15,41 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:title', content: 'Jacobtread' },
-      { property: 'og:description', content: description },
-      { property: 'og:url', content: 'https://jacobtread.github.io/' },
-      { property: 'og:image', content: 'https://jacobtread.github.io/img/jacobtread.png' },
-      { name: 'author', content: 'Jacobtread' },
-      { name: 'description', content: description },
-      { name: 'keywords', content: 'developer,jacobtread,jacob,programming,software' },
+      {
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        property: 'og:title',
+        content: 'Jacobtread'
+      },
+      {
+        property: 'og:description',
+        content: description
+      },
+      {
+        property: 'og:url',
+        content: 'https://jacobtread.github.io/'
+      },
+      {
+        property: 'og:image',
+        content: 'https://jacobtread.github.io/img/jacobtread.png'
+      },
+      {
+        hid: 'author',
+        name: 'author',
+        content: 'Jacobtread'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: description
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'developer,jacobtread,jacob,programming,software'
+      },
       { name: 'theme-color', content: '#ff6875' }
     ],
     link: [
