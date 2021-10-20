@@ -18,7 +18,7 @@
           class="folio__items__value__link"
           v-if="item.links.github"
           :href="item.links.github"
-          rel="nooppener"
+          rel="noopener"
           target="_blank"
         >
           <GithubIcon class="icon--inline" />
@@ -28,7 +28,7 @@
           class="folio__items__value__link"
           v-if="item.links.website"
           :href="item.links.website"
-          rel="nooppener"
+          rel="noopener"
           target="_blank"
           >View Website</a
         >

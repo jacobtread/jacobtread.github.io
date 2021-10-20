@@ -18,7 +18,7 @@
       <a
         class="links__item"
         target="_blank"
-        rel="nooppener"
+        rel="noopener"
         href="https://instagram.com/jacobtread"
       >
         <InstagramIcon />
@@ -30,7 +30,7 @@
       <a
         class="links__item"
         target="_blank"
-        rel="nooppener"
+        rel="noopener"
         href="https://www.snapchat.com/add/jacobtread?share_id=m55FKairH1s&locale=en-NZ"
       >
         <SnapchatIcon />
@@ -42,7 +42,7 @@
       <a
         class="links__item"
         target="_blank"
-        rel="nooppener"
+        rel="noopener"
         href="https://github.com/jacobtread"
       >
         <GithubIcon />
@@ -54,7 +54,7 @@
       <a
         class="links__item"
         target="_blank"
-        rel="nooppener"
+        rel="noopener"
         href="https://tellonym.me/jacobtread"
       >
         <TellonymIcon />
@@ -70,7 +70,7 @@
           <p class="links__item__content__text">Jacobtread#3770</p>
         </div>
       </div>
-      <a class="links__item" rel="nooppener" href="mailto:jacobtread@gmail.com">
+      <a class="links__item" rel="noopener" href="mailto:jacobtread@gmail.com">
         <MailIcon />
         <div class="links__item__content">
           <h1 class="links__item__content__title">Email</h1>
