@@ -5,7 +5,7 @@
     <p class="block__text">
       I am a small time developer from 🥝 New Zealand with a lot of free time on
       my hands. I spent my days developing web applications mostly 🕹️ Dashboards
-      and similar applications. But I do accasionally dip my feet into the world
+      and similar applications. But I do occasionally dip my feet into the world
       desktop applications with
       <KotlinIcon class="icon--inline" /> Kotlin and Java. But I do perfer to
       use Web techologies such as
