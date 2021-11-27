@@ -32,6 +32,14 @@
       "links": {
         "github": "https://github.com/jacobtread/KNI"
       }
+    },
+    {
+      "img": "https://raw.githubusercontent.com/jacobtread/jacobtread.github.io/main/static/img/dream.svg",
+      "title": "Dream",
+      "description": "Dream is a WEB-GUI Minecraft Cheat that is controlled via your web browser and can be access from any device that can use a web browser its written in VueJS with a PHP backend",
+      "links": {
+        "website": "https://dreamclient.xyz"
+      }
     }
   ]
 }
