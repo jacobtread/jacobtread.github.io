@@ -40,6 +40,14 @@
       "links": {
         "website": "https://dreamclient.xyz"
       }
+    },
+    {
+      "img": "https://raw.githubusercontent.com/jacobtread/jacobtread.github.io/main/assets/icons/kotlin.svg",
+      "title": "MCK",
+      "description": "MCK (Minecraft Kotlin Edition) is a high performance Minecraft client written in Kotlin which greatly out performes many clients available today.",
+      "links": {
+        "website": "https://mck.jacobtread.com"
+      }
     }
   ]
 }
