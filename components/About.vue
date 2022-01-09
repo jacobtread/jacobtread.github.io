@@ -10,7 +10,8 @@
       <KotlinIcon class="icon--inline" /> Kotlin and Java. But I do perfer to
       use Web techologies such as
       <TypeScriptIcon class="icon--inline" /> Typescript and
-      <VueJSIcon class="icon--inline" /> VueJS
+      <VueJSIcon class="icon--inline" /> VueJS. I've also recently been using
+      <GoIcon class="icon--inline" /> Go and have been really enjoying using it
     </p>
   </div>
 </template>
@@ -21,9 +22,10 @@ import TypeScriptIcon from "@/assets/icons/typescript.svg?inline";
 import VueJSIcon from "@/assets/icons/vuejs.svg?inline";
 import KotlinIcon from "@/assets/icons/kotlin.svg?inline";
 import AbstrBottom from "@/assets/img/abstr-bottom.svg?inline";
+import GoIcon from "@/assets/icons/go.svg?inline";
 
 export default Vue.extend({
-  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom },
+  components: { TypeScriptIcon, VueJSIcon, KotlinIcon, AbstrBottom, GoIcon },
 });
 </script>
 
@@ -33,5 +35,4 @@ export default Vue.extend({
 .abstr {
   transform: translateY(-8px);
 }
-
 </style>
