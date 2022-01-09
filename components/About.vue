@@ -11,7 +11,7 @@
       use Web techologies such as
       <TypeScriptIcon class="icon--inline" /> Typescript and
       <VueJSIcon class="icon--inline" /> VueJS. I've also recently been using
-      <GoIcon class="icon--inline" /> Go and have been really enjoying using it
+      <GoIcon class="icon--inline" style="width: 2em;"/> Go and have been really enjoying using it
     </p>
   </div>
 </template>
