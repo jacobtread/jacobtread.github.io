@@ -15,10 +15,12 @@
           <Typer
             :values="[
               'Web',
+              'Kotlin',
               'Software',
               'Stonks™',
               'JS',
               'PHP',
+              'Go',
               'Cool',
               'Bad',
               'Cheat',

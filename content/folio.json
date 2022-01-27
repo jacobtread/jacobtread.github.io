@@ -52,7 +52,7 @@
     {
       "img": "https://github.githubassets.com/images/icons/emoji/unicode/1f4e1.png",
       "title": "KJP",
-      "description": "KJP (KAMAR JSON Pass-through) is a server written in Go whichs provides a way to connect to and use KAMAR portal apis through the web with easy to use JSON REST API",
+      "description": "KJP (KAMAR JSON Pass-through) is a server written in Go which provides a way to connect to and use KAMAR portal APIs through the web with easy to use JSON REST API",
       "links": {
         "github": "https://github.com/jacobtread/KJP"
       }
