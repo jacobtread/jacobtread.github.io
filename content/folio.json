@@ -42,9 +42,9 @@
       }
     },
     {
-      "img": "https://mck.jacobtread.com/icon_32.png",
-      "title": "MCK",
-      "description": "MCK (Minecraft Kotlin Edition) is a high performance Minecraft client written in Kotlin which greatly out performes many clients available today.",
+      "img": "https://alto.jacobtread.com/icon_32.png",
+      "title": "Alto",
+      "description": "Alto is a high performance Minecraft client written in Kotlin which greatly out performs many clients available today.",
       "links": {
         "website": "https://mck.jacobtread.com"
       }
