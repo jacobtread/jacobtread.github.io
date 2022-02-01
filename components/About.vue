@@ -7,8 +7,8 @@
       my hands. I spent my days developing web applications mostly 🕹️ Dashboards
       and similar applications. But I do occasionally dip my feet into the world
       desktop applications with
-      <KotlinIcon class="icon--inline" /> Kotlin and Java. But I do perfer to
-      use Web techologies such as
+      <KotlinIcon class="icon--inline" /> Kotlin and Java. But I do prefer to
+      use Web technologies such as
       <TypeScriptIcon class="icon--inline" /> Typescript and
       <VueJSIcon class="icon--inline" /> VueJS. I've also recently been using
       <GoIcon class="icon--inline" style="width: 2em;"/> and have been really enjoying using it
