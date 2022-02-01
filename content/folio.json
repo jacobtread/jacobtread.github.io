@@ -46,7 +46,8 @@
       "title": "Alto",
       "description": "Alto is a high performance Minecraft client written in Kotlin which greatly out performs many clients available today.",
       "links": {
-        "website": "https://alto.jacobtread.com"
+        "website": "https://alto.jacobtread.com",
+        "github": "https://github.com/AltoClient"
       }
     },
     {
