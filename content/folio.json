@@ -57,6 +57,15 @@
       "links": {
         "github": "https://github.com/jacobtread/KJP"
       }
+    },
+    {
+      "img": "https://github.githubassets.com/images/icons/emoji/unicode/2753.png",
+      "title": "Quizler",
+      "description": "A real time quiz application for quickly and easily making quizzes.",
+      "links": {
+        "website": "https://quizler.jacobtread.com",
+        "github": "https://github.com/jacobtread/Quizler"
+      }
     }
   ]
 }
